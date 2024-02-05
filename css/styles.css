@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat&family=Raleway:wght@300&display=swap');
+*{
+    font-size: "Golos Text" ;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* body{
+    color: #000;
+    font-family: 'Roboto';
+} */
+
+/* -----NAV BAR----- */
+.nav-bar .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+
+
+
+
+/* -----BIENVENIDO/A----- */
+.inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("../img/fondoreina.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 140px 0 50px 0;
+    text-align: center;
+}
+.inicio .heroText{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.inicio .heroText h1{
+    text-transform: uppercase;
+    font-family: "Monserrat";
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+.inicio .heroText p{
+    font-family: "Golos Text";
+    max-width: 700px;
+    margin: auto;
+    color: #fff;
+    font-weight: 2.5rem;
+}
+.inicio .heroText .info{
+    padding-bottom: 50px;
+}
+.inicio .heroText .info h3{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.inicio .heroText .redes .info{
+    margin: 20px 0;
+}
+.inicio .heroText .redes .info a{
+    display: inline-block;
+    text-decoration: none;
+    color: #d339d8;
+    border: 1px solid #d339d8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .heroText .redes .info a:hover{
+    color: #fff;
+    background-color: #d339d8;
+    box-shadow: 0 0 20px #fff;
+}
+
+
+/* -----NUEVOS INGRESOS------ */
+.nuevos-ingresos{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #000;
+}
+.nuevos-ingresos .heroText{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.nuevos-ingresos .heroText h1{
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+.nuevos-ingresos .heroText h2{
+    font-family: "Titillium Web";
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    font-weight: 2.5rem;
+}
+.nuevos-ingresos .heroText h2::after{
+    content: " ";
+        display: block;
+        margin: 20px auto 40px;
+        width: 100px;
+        height: 2px;
+        background: #000;
+}
+/* BTN */
+.btn{
+    color: #de65e2;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #de65e2;
+    box-shadow: 0 0 20px #fff;
+}
+.btnVerMas{
+    margin-top: 50px;
+}
+
+
+/* -----FOOTER----- */
+.contacto{
+    background: linear-gradient(rgba(133, 131, 131, 0.3), rgba(133, 131, 131, 0.3)),
+    url("../img/fondofooter.webp");
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+    text-align: center;
+    padding: 70px 0 50px 0;
+    font-family: "Raleway";
+    margin-top: 50px;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+ .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion span{
+    color: #fff;
+}
+
+
+
+/* -----NOSOTROS----- */
+.contenedor-seccion{
+    margin: auto;
+    width: 100%;
+    padding: 75px 0;
+}
+.section-titulo{
+    font-family: "Monserrat";
+    font-size: 40px;
+    color: #de65e2;
+    margin: 25px 0;
+}
+.nos{
+    display: flex;
+}
+.nosotros-parrafo{
+    width: 60%;
+    padding: 0 10% 0 0;
+}
+.nos-texto{
+    font-family: "Titillium Web";
+    font-size: 18px;
+    text-align: justify;
+}
+.parrafo{
+    margin: 10px 0;
+}
+.nos-img{
+    width: 40%;
+}
+.imagen{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+.redes-sociales{
+    margin: 20px 0;
+}
+.redes-sociales-titulo{
+    font-family: "Monserrat";
+    font-size: 20px;
+    color: #de65e2;
+}
+.iconos{
+    font-size: 50px;
+    margin: 10px 10px 10px 10px;
+}
+.contenedor-seccion2{
+    margin: auto;
+}

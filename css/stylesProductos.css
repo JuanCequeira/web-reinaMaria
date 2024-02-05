@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat&family=Raleway:wght@300&display=swap');
+
+*{
+    font-size: "Golos Text" ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+.nav-bar .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+/* PRODUCTOS */
+.inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("../img/fondoropa.webp");
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+    padding: 140px 0 50px 0;
+    text-align: center;
+    font-family: "Golos Text";
+}
+.inicio .heroText{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.inicio .heroText h1{
+    text-transform: uppercase;
+    font-family: "Monserrat";
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.inicio .heroText p{
+    font-family: "Golos Text";
+    max-width: 700px;
+    margin: auto;
+    color: #000;
+    font-weight: 2.5rem;
+}
+/* BTN */
+.btn{
+    color: #de65e2;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #de65e2;
+    box-shadow: 0 0 20px #fff;
+}
+
+
+/* -----FOOTER----- */
+.contacto{
+    background: linear-gradient(rgba(133, 131, 131, 0.3), rgba(133, 131, 131, 0.3)),
+    url("../img/fondofooter.webp");
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+    text-align: center;
+    padding: 70px 0 50px 0;
+    font-family: "Raleway";
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+ .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion span{
+    color: #fff;
+}
