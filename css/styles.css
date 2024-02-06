@@ -26,9 +26,6 @@ html{
 }
 
 
-
-
-
 /* -----BIENVENIDO/A----- */
 .inicio {
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
@@ -148,7 +145,7 @@ html{
     text-align: center;
     padding: 70px 0 50px 0;
     font-family: "Raleway";
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .contacto .contenido-seccion{
     max-width: 1000px;

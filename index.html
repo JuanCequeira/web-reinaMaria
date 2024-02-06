@@ -10,7 +10,9 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -33,39 +35,46 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                      <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                                        <a class="nav-link active" aria-current="page"
+                                            href="./pages/productos.html">Productos</a>
                                     </li>
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                          <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                                            <a class="nav-link active" aria-current="page"
+                                                href="./pages/nosotros.html">Nosotros</a>
                                         </li>
                                     </ul>
                                 </ul>
                             </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
-                                <button class="btn" type="submit">Buscar</button>
-                            </form>
+                            <!-- CARRITO -->
+                            <div id="carrito" class="d-flex btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </nav>
-        </div>        
+            </div>
     </section>
-    
+
     <!-- BIENVENIDO/A -->
     <section class="container">
         <div class="inicio" id="inicio">
             <div class="heroText">
                 <h1>Bienvenida <i class="fa-solid fa-heart"></i>
-                        <path fill-rule="evenodd"
-                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                    <path fill-rule="evenodd"
+                        d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
                     </svg>
                 </h1>
                 <p>Gracias por visitar nuestra tienda online</p>
                 <div class="redes">
                     <div class="info">
                         <h3>Nuestras redes</h3>
-                        <a href="https://www.facebook.com/profile.php?id=100068826816760"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100068826816760"><i
+                                class="fa-brands fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/reinamariastore/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
@@ -81,7 +90,6 @@
                 <h1>Productos</h1>
                 <h2>Nuevos ingresos</h2>
             </div>
-            <!-- <div class="row justify-content mt-4"> -->
             <div class="row">
                 <!-- Tarjeta 1 -->
                 <div class="col" style="width: 25rem;">
@@ -139,43 +147,45 @@
 
     <!-- Footer -->
     <footer class="container">
-            <section class="contacto" id="contacto">
-                <div class="contenido-seccion">
-                    <h2 class="titulo-seccion">Contacto</h2>
-                    <h3>Ponete en contacto ahora mismo!</h3>
-        
-                    <div class="fila">
-                        <div class="col">
-                            <h2>
-                                <a href=""> <i class="fa-brands fa-instagram"></i></a> 
-                            </h2>
-                            <span class="info-contacto">#reinamariastore</span>
-                        </div>
-                        <div class="col">
-                            <h2>
-                                <a href=""><i class="fa-solid fa-envelope"></i></a>
-                            </h2>
-                            <span class="info-contacto">reinamariastore@gmail.con</span>
-                        </div>
-                        <div class="col">
-                            <h2>
-                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                            </h2>
-                            <span class="info-contacto">Reina Maria</span>
-                        </div>
-                        <div class="col">
-                            <h2>
-                                <a href=""><i class="fa-solid fa-truck-fast"></i></a>
-                            </h2>
-                            <span class="info-contacto">Envios a todo el pais</span>
-                        </div>
+        <section class="contacto" id="contacto">
+            <div class="contenido-seccion">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <h3>Ponete en contacto ahora mismo!</h3>
+
+                <div class="fila">
+                    <div class="col">
+                        <h2>
+                            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                        </h2>
+                        <span class="info-contacto">#reinamariastore</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <a href=""><i class="fa-solid fa-envelope"></i></a>
+                        </h2>
+                        <span class="info-contacto">reinamariastore@gmail.con</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </h2>
+                        <span class="info-contacto">Reina Maria</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <a href=""><i class="fa-solid fa-truck-fast"></i></a>
+                        </h2>
+                        <span class="info-contacto">Envios a todo el pais</span>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
     </footer>
 
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="./main.js"></script>
 </body>

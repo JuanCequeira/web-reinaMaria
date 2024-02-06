@@ -52,7 +52,27 @@ stock.forEach((product)=> {
 })
 
 
+// NUEVOS INGRESOS
 
+// class nuevosIngresos {
+//     constructor (id, modelo, precio, detalle){
+//         this.id = id,
+//         this.modelo = modelo,
+//         this.precio = precio,
+//         this.detalle = detalle
+//     }
+// }
+
+// const nuevoIngreso1 = new nuevosIngresos (1, "Polera Perugia", "$21.500", "Polera de hilo, con detalles en puño.")
+// const nuevoIngreso2 = new nuevosIngresos (2, "Pantalon Trento", "$48.800", "Pantalon full estampa, elastico en cintura. Con espandex")
+// const nuevoIngreso3 = new nuevosIngresos (3, "Pantalon Como", "$35.100", "Pantalon tipo cargo, con bolsillos y elastico en el tobillo.")
+// const nuevoIngreso4 = new nuevosIngresos (4, "Pantalon Parma", "$59.900", "Pantalon simil cuero, con lazo en la cintura");
+
+// const stockNuevosIngresos = [nuevoIngreso1, nuevoIngreso2, nuevoIngreso3, nuevoIngreso4];
+
+// let contenedorNuevosIngresos = document.getElementById("contenedorNuevosIngresos")
+// let contenido = document.createElement("div")
+// contenido.className = ""
 
 
 
